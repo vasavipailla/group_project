@@ -3,6 +3,7 @@
   height: 100px;
   max-width: 100%;
   background-color: #d3a6c2;
+  padding: 20px 20px 0px 20px;
 }
 .gallery {
   background-color: #dcb8ce;
@@ -12,4 +13,10 @@
 .logo {
   height: 83px;
   width: 200px;
+  border-radius: 50px;
+}
+/*Gallery*/
+.img {
+  width: 200px;
+  height: 200px;
 }
