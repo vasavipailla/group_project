@@ -1,0 +1,15 @@
+/*Header*/
+.header-container {
+  height: 100px;
+  max-width: 100%;
+  background-color: #d3a6c2;
+}
+.gallery {
+  background-color: #dcb8ce;
+  width: 100vw;
+  height: 100vh;
+}
+.logo {
+  height: 83px;
+  width: 200px;
+}
