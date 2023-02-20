@@ -1,21 +1,22 @@
 /*Header*/
 .header-container {
   height: 100px;
-  max-width: 100%;
+  width: 100vw;
   background-color: #d3a6c2;
   padding: 20px 20px 0px 20px;
 }
-.gallery {
-  background-color: #dcb8ce;
-  width: 100vw;
-  height: 100vh;
-}
+
 .logo {
   height: 83px;
   width: 200px;
   border-radius: 50px;
 }
 /*Gallery*/
+.gallery {
+  background-color: #dcb8ce;
+  width: 100vw;
+  height: 100vh;
+}
 .img {
   width: 200px;
   height: 200px;
