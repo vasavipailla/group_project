@@ -1,6 +1,6 @@
 body {
     margin:30px;
- background-color: aquamarine; 
+ /* background-color: aquamarine;  */
 }
 
 .logo {
@@ -31,4 +31,19 @@ li {
   margin: 30px; 
   font-family:Roboto;
 }
+
+.container3 {
+    display: flex;
+    /* justify-content: center; */
+    margin: 100px;
+}
+
+.heading {
+    font-family: Roboto;
+    font-style:bold;
+    font-size:50px;
+
+}
+
+
 
