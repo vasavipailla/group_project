@@ -36,6 +36,8 @@ li {
     display: flex;
     /* justify-content: center; */
     margin: 100px;
+    flex-direction: column;
+
 }
 
 .heading {
@@ -43,6 +45,13 @@ li {
     font-style:bold;
     font-size:50px;
 
+}
+
+.main-text {
+    font-family:Roboto;
+    font-style: normal;
+    font-size: 25px;
+    margin-top:20px ;
 }
 
 
