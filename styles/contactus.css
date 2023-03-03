@@ -1,6 +1,7 @@
 body{
-    background-color: #d3a6c2;
+    background-color: rgb(252, 249, 249);
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 p{
     font-size: 19px;
@@ -8,23 +9,28 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    width: 80%;
+    width: 50%;
     margin: 50px auto;
+    text-align: center;
 }
 .contact-box{
-    background-color: azure;
+    background-color: white;
     display: flex;
+    justify-content: center;
    
 }
 .contact-left{
-    flex-basis: 60%;
-    padding: 40px 60px;
+    flex-basis: 40%;
+    padding: 20px 20px;
 }
 .contact-right{
-    flex-basis: 40%;
-    padding: 40px;
-    background-color: blue;
-    color: azure;
+    flex-basis: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    
 }
 .input{
     display: flex;
@@ -32,9 +38,12 @@ p{
     margin-bottom: 10px;
     width: 60%;
     height: 30px;
+    border-radius: 10px;
+    
 }
 textarea{
     width: 60%;
+    border-radius: 10px;
     border: 1px solid #d3a6c2;
     outline: none;
     margin-bottom: 10px;
@@ -55,9 +64,9 @@ select {
     height: 30px;   
 }
 button{
-    background-color: green;
-    color: azure;
-    width: 20%;
+    background-color: black;
+    color:white;
+    width: 30%;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -71,9 +80,118 @@ button{
 }
 
 button:hover{
-    background-color:red;
+    background-color:rgb(94, 83, 83);
     
 }
+.title{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    
+}
+.info{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.container2{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+.contact-box1{
+    display: flex;
+    justify-content: center;
+
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+.title2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.info2{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card {
+    display: flex;
+    max-width: 350px;
+    min-height: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    background-color:white;
+    justify-content: center;
+    
+}
+    
+.btn1{
+    background-color: black;
+    color: antiquewhite;
+    height: 70px;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 90px;
+ 
+}
+.btn2{
+    background-color: black;
+    color: antiquewhite;
+    height: 70px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 90px;
+
+}
+.container3{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+.image-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.card2{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    background-color:white;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
 
 
 

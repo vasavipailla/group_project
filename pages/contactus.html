@@ -12,12 +12,14 @@
 </head>
 <body>
     <div class="container">
-        <h1>connect with us</h1>
-        <p>we would love to respond to your queries and help you suceeed
-            <br>feel free to get in touch with us.</p>
+        <h1 >Welcome to customer service</h1> 
+        <h2>Connect with us</h2>
+        <p>We would love to respond to your queries and help you suceeed
+         <br>Feel free to get in touch with us.</p>
+    </div>
         <div class="contact-box">
             <div class="contact-left">
-                <h3>send your request</h3>
+                <h3>Send your request</h3>
                 <form>
                     <label for="name" class="lable">First Name</label>
                     <input type="text" id="name" class="input" name="firstname" placeholder="Your name"required autofocus>
@@ -26,18 +28,18 @@
                     <input type="text" id="name" class="input" name="lastname" placeholder="Your last name..">
 
                     <label for="email" class="lable">Email</label>
-                    <input type="text" id="email" class="input" name="email">
+                    <input type="email" id="email" class="input" name="email" required>
                 
                     <label for="phone" class="lable">phone</label>
                     <input type="text" id="phone" class="input" name="phone" placeholder="+47">
 
                     <label for="addrees" class="lable">Address</label>
-                    <input type="text" id="Address" class="input" name="addrees" >
+                    <input type="text" id="Address" class="input" name="addrees">
                 
                     <label for="password" class="lable">password</label>
                     <input type="text" id="password" class="input"  name="password"required minlength="8">
+
                     <label for="select" class="label">What type of headphone you are looking for ?</label>
-                      
                         <select name="headpones" class="select" id="select">
                             <option value="wireless">wireless(Bluetooth)</option>
                             <option value="Earbuds">Earbuds(in-ear)</option>
@@ -49,26 +51,78 @@
                     <textarea rows="5" placeholder=" Enter your message"></textarea>
                     <button type="submit">SEND</button>
                 </form>
+
             </div>
             <div class="contact-right">
                 <h3>Reach us</h3>
                 <table> 
-                    <tr>
+                    <div class="email">
                      <i class="fa-solid fa-envelope"></i> 
-                       <td>Email</td> 
-                       <td>contactus@example.com</td>
-                    </tr>
-                    <tr>
-                        <td>phone</td>
-                        <td>+46-123456</td>
-                    </tr>
-                    <tr>
-                        <td>Address</td>
-                        <td>#212,grondfloor,järnvägsgatan 11<br>25224 Helsingborg </td>
-                    </tr>
+                       <h3 class="title">Email</h3> 
+                       <p class="info">contactus@example.com</p>
+                    </div>
+                    <div class="phone">
+                     <i class="fa-solid fa-phone"></i>
+                        <h3 class="title">phone</h3>
+                        <p class="info">+46-123456</p>
+                    </div>
+                    <div class="addrees">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                           <h3 class="title">Address</h3>
+                           <p class="info">#212, grondfloor, järnvägsgatan <br>25224 Helsingborg</p>
+                       </div>   
                 </table>
             </div>
         </div>
+     <div class="container2"> 
+       <h2>How can we help you Today ? </h2> 
+       <p> QUICK LINKS</p>
+        <div class="contact-box1">
+            <div class="card">
+                <div class="card__content">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3 class="title2">I WANT TO KNOW WHERE MY ORDER IS</h3>
+                        <p class="info2">Enter your order number,which you will
+                            in your order confirmation. </p>
+                    <form>
+                        <label for="order" class="lable1">Order number</label>
+                        <input type="text" id="order" class="input1" name="order" placeholder="e.g3.12345670"required >
+                        <button type="submit" class="btn1">track my order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__content">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                    <h3 class="title2">I WANT TO RETURN SOMETHING</h3>
+                     <p class="info2">Register easily online.all you need 
+                        is the order number found in your order confirmation
+                        and email address used when you placed your order . </p>
+                        <button class="btn2">Register a return</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <h2 class="title-3">COMMON QUESTIONS</h2>
+            <div class="image-content">
+                <div class="card2">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h4 class="text">Delivery</h4>
+                </div>
+                <div class="card2">
+                    <i class="fa-sharp fa-solid fa-arrow-rotate-left"></i>
+                    <h4 class="text">Rrturns</h4>
+                </div>
+                <div class="card2">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <h4 class="text">Payment</h4>
+                </div>
+                <div class="card2">
+                    <i class="fa-solid fa-gift"></i>
+                    <h4 class="text">Present card</h4>
+                </div>
+            </div>
     </div>
     
 </body>
