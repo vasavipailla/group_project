@@ -111,17 +111,16 @@ select {
 button{
     background-color: black;
     color:white;
-    width: 30%;
+    padding: 15px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     font-size: 18px;
-    padding: 12px 32px;
     text-decoration: none;
-    margin: 4px 2px;
     display: flex;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 70px;
+   
 }
 
 button:hover{
@@ -186,27 +185,23 @@ button:hover{
     
 .btn1{
     background-color: black;
-    color: antiquewhite;
-    height: 70px;
-    width: 40%;
+    color: white;
     border: none;
     cursor: pointer;
     font-size: 18px;
     text-align: center;
-    margin-left: 90px;
+    margin-top: 10px;
  
 }
 .btn2{
     background-color: black;
-    color: antiquewhite;
-    height: 70px;
-    width: 120px;
+    color: white;
     border: none;
     cursor: pointer;
     font-size: 18px;
     text-align: center;
-    margin-left: 90px;
-
+    width: 50%;
+    
 }
 .container3{
     width: 50%;
