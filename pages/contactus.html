@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e9bc636bb1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="..\styles\contactus.css">
+    <link rel="stylesheet" href="stylesheet/reset.css"> 
+    <title>contact us</title>
+</head>
+<body>
+    <header>
+        <nav>
+             <div >
+               <img class="logo" src="images/headphone1.png" alt="logo of headphone" >
+             </div>
+             <div>
+               <ul class="list">
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="contactus.html">Contact Us</a></li>
+               </ul>
+             </div>
+        </nav>
+     </header>
+    <div class="container">
+        <h1 >Welcome to customer service</h1> 
+        <h2>Connect with us</h2>
+        <p>We would love to respond to your queries and help you suceeed
+         <br>Feel free to get in touch with us.</p>
+    </div>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send your request</h3>
+                <form>
+                    <label for="name" class="lable">First Name</label>
+                    <input type="text" id="name" class="input" name="firstname" placeholder="Your name"required autofocus>
+                
+                    <label for="name" class="lable">Last Name</label>
+                    <input type="text" id="name" class="input" name="lastname" placeholder="Your last name..">
+
+                    <label for="email" class="lable">Email</label>
+                    <input type="email" id="email" class="input" name="email" required>
+                
+                    <label for="phone" class="lable">phone</label>
+                    <input type="text" id="phone" class="input" name="phone" placeholder="+47">
+
+                    <label for="addrees" class="lable">Address</label>
+                    <input type="text" id="Address" class="input" name="addrees">
+                
+                    <label for="password" class="lable">password</label>
+                    <input type="text" id="password" class="input"  name="password"required minlength="8">
+
+                    <label for="select" class="label">What type of headphone you are looking for ?</label>
+                        <select name="headpones" class="select" id="select">
+                            <option value="wireless">wireless(Bluetooth)</option>
+                            <option value="Earbuds">Earbuds(in-ear)</option>
+                            <option value="Noise-cancelling">Noise-cancelling</option>
+                            <option value="open-back">open-back</option>
+                            <option value="closed-back">closed-back</option>
+                        </select>
+                    <label for="message" class="lable">Message</label>
+                    <textarea rows="5" placeholder=" Enter your message"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+
+            </div>
+            <div class="contact-right">
+                <h3>Reach us</h3>
+                <table> 
+                    <div class="email">
+                     <i class="fa-solid fa-envelope"></i> 
+                       <h3 class="title">Email</h3> 
+                       <p class="info">contactus@example.com</p>
+                    </div>
+                    <div class="phone">
+                     <i class="fa-solid fa-phone"></i>
+                        <h3 class="title">phone</h3>
+                        <p class="info">+46-123456</p>
+                    </div>
+                    <div class="addrees">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                           <h3 class="title">Address</h3>
+                           <p class="info">#212, Groundfloor, Järnvägsgatan <br>25224 Helsingborg</p>
+                       </div>   
+                </table>
+            </div>
+        </div>
+     <div class="containertwo"> 
+       <h2>How can we help you Today ? </h2> 
+       <p> QUICK LINKS</p>
+        <div class="contact-box1">
+            <div class="card">
+                <div class="card__content">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3 class="title2">I WANT TO KNOW WHERE MY ORDER IS</h3>
+                        <p class="info2">Enter your order number, which you will find in your order confirmation. </p>
+                    <form>
+                        <label for="order" class="lable1">Order number</label>
+                        <input type="text" id="order" class="input1" name="order" placeholder="e.g.12345670"required >
+                        <button type="submit" class="btn1">track my order</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__content">
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                    <h3 class="title2">I WANT TO RETURN SOMETHING</h3>
+                     <p class="info2">Register easily online.all you need 
+                        is the order number found in your order confirmation
+                        and email address used when you placed your order . </p>
+                        <button class="btn2">Register a return</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <h2 class="title-3">COMMON QUESTIONS</h2>
+            <div class="image-content">
+                <div class="cardb">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h4 class="text">Delivery</h4>
+                </div>
+                <div class="cardb">
+                    <i class="fa-sharp fa-solid fa-arrow-rotate-left"></i>
+                    <h4 class="text">Rrturns</h4>
+                </div>
+                <div class="cardb">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <h4 class="text">Payment</h4>
+                </div>
+                <div class="cardb">
+                    <i class="fa-solid fa-gift"></i>
+                    <h4 class="text">Present card</h4>
+                </div>
+            </div>
+    </div>
+    <div class="container4">
+        <h2 class="title-3">Chat with our chatbot 24/7 for answers to common questions or talk to a live agent if you need more support during our business hours.  <a href="#">contact us</a></h2>
+
+    </div>
+    <footer>
+        <div class="container2">
+              <div class="footer one">
+                <img class="logo1" src="images/headphone1.png" alt="logo of headphone" >
+                <p class="text">A treat to your ears.</p>
+              </div>
+              <div class="container3">
+                    <div>
+                      <ul class="footer two">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul class="footer three">
+                      <li><a href="#">Terms and Conditions</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Cookie Policy</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer four">
+                      <ul>
+                        <li><a href="#">Lets chat!</a></li>
+                        <li><a href="#">headphone.app</a></li>
+                        <li><img src="images/Social.png" alt="logo of social media"></li>
+                      </ul>
+                    </div>
+              </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
