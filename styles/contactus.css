@@ -2,6 +2,7 @@ body{
     background-color: rgb(252, 249, 249);
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    background-color: #d3a6c2;
 }
 .logo {
     width: 100%;
@@ -57,11 +58,13 @@ p{
     width: 50%;
     margin: 50px auto;
     text-align: center;
+   
 }
 .contact-box{
     background-color: white;
     display: flex;
     justify-content: center;
+    background-color: #d3a6c2;
    
 }
 .contact-left{
@@ -140,7 +143,7 @@ button:hover{
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
 }
-.container2{
+.containertwo{
     width: 50%;
     margin: 50px auto;
     text-align: center;
@@ -214,7 +217,7 @@ button:hover{
     justify-content: space-between;
     
 }
-.card2{
+.cardb{
     display: flex;
     width: 200px;
     height: 80px;
@@ -268,7 +271,46 @@ footer {
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-  }
+}
+.card2 {
+    box-shadow:  black;
+    border-radius: 2px;
+    max-width: 300px;
+    width: 100%;
+    min-height: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(130, 105, 113) ;
+    border: black solid 2px;
+    
+}
+.price{
+    color: grey;
+    font-size: 22px;
+}
+.cart {
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 80px;
+    font-size: 16px;
+    width: 100%;
+}
+.cardb button:hover {
+    opacity: o.7;
+}
+.img {
+    width: 100%;
+    height: 40%;
+}
+.pagetitle {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
