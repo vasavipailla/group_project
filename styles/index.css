@@ -27,7 +27,8 @@ li {
 }
 
 a:hover {
-  color: coral;
+  color: black;
+  font-size: 130%;
 }
 
 .main {
@@ -107,7 +108,7 @@ footer {
   border-radius: 10px;
   width: 100%;
   background-color: #d7afc8;
-  height: 80%;
+  height: 100%;
   min-height: 180px;
 }
 
@@ -130,7 +131,7 @@ footer {
 }
 
 .logo1 {
-  max-width: 150px;
+  max-width: 120px;
   border-radius: 45px;
 }
 
@@ -142,6 +143,8 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: 30px;
 }
 
