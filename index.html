@@ -6,42 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="../styles/gallery.css" />
+    <link rel="stylesheet" href="styles\gallery.css" />
     <title>Headphones</title>
   </head>
   <body>
     <header>
       <nav>
-        <div>
-          <a href="index.html"
-            ><img
-              class="logo"
-              src="images/headphone1.png"
-              alt="logo of headphone"
-          /></a>
-        </div>
-        <div>
-          <ul class="list">
-            <li><a href="pages/product-page.html">Product-page</a></li>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/contactus.html">Contact Us</a></li>
-          </ul>
+        <div> <a href="index.html"><img class="logo" src="images/headphone1.png" alt="logo of headphone"/></a></div>
+        <div  class="list" id="nav-bar">
+            <a  class="navItem" href="pages/product-page.html">Product-page</a>
+            <a class="navItem" href="pages/gallery.html">Gallery</a>
+            <a class="navItem" href="pages/contactus.html">Contact Us</a>
+            <a class="icon" onclick="burgerMenu()"> <i class="fa fa-bars"></i></a>
         </div>
       </nav>
     </header>
@@ -62,45 +46,45 @@
     </main>
     <section class="gallery">
       <img
-        src="../pictures/checkingphone.jpg"
+        src="pictures\checkingphone.jpg"
         alt="A man wearing headphones and checking his phone"
         class="img img_1"
       />
       <img
-        src="../pictures/dancing-girl.jpg"
+        src="pictures\dancing-girl.jpg"
         alt="A girl wearing headphones and dancing"
         class="img img_2"
       />
       <img
-        src="../pictures/enjoying-music.jpg"
+        src="pictures\enjoying-music.jpg"
         alt="A woman with closed eyes wearing headphones and enjoying music"
         class="img img_3"
       />
       <img
-        src="../pictures/laughing-woman.jpg"
+        src="pictures\laughing-woman.jpg"
         alt="
       a woman wearing headphones and laughing"
         class="img img_4"
       />
       <img
-        src="../pictures/staringintodistance.jpg"
+        src="pictures\staringintodistance.jpg"
         alt="A man wearing headphones outside and staring into the distance"
         class="img img_5"
       />
       <img
-        src="../pictures/turnedtotheside.jpg"
+        src="pictures\turnedtotheside.jpg"
         alt="
       A woman with headphones turned to the side"
         class="img img_6"
       />
       <img
-        src="../pictures/woman_working_out.jpg"
+        src="pictures\woman_working_out.jpg"
         alt="
       A woman working out"
         class="img img_7"
       />
       <img
-        src="../pictures/darkvibes.jpg"
+        src="pictures\darkvibes.jpg"
         alt="
       A man sitting in a dark room"
         class="img img_8"
@@ -110,42 +94,48 @@
       </div>
     </section>
     <footer>
-      <div class="container2">
-        <div class="footer one">
-          <a href="index.html"
-            ><img
-              class="logo1"
-              src="images/headphone1.png"
-              alt="logo of headphone"
-          /></a>
-          <p class="text">A treat to your ears.</p>
-        </div>
-        <div class="container3">
-          <div>
-            <ul class="footer two">
-              <li><a href="pages/product-page.html">product-page</a></li>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/contactus.html">Contact Us</a></li>
-            </ul>
+          <div class="container2">
+            <div class="footer one">
+              <a href="index.html" ><img class="logo1" src="images/headphone1.png" alt="logo of headphone" /></a>
+              <p class="text">A treat to your ears.</p>
+            </div>
+            <div class="container3">
+                  <div>
+                    <ul class="footer two">
+                      <li><a href="pages/product-page.html">product-page</a></li>
+                      <li><a href="pages/gallery.html">Gallery</a></li>
+                      <li><a href="pages/contactus.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul class="footer three">
+                      <li><a href="#">Terms and Conditions</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer four">
+                    <ul>
+                      <li><a href="#">Lets chat!</a></li>
+                      <li><a href="#">headphone.app</a></li>
+                      <li>
+                        <img src="images/Social.png" alt="logo of social media" />
+                      </li>
+                    </ul>
+                  </div>
+            </div>
           </div>
-          <div>
-            <ul class="footer three">
-              <li><a href="#">Terms and Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Cookie Policy</a></li>
-            </ul>
-          </div>
-          <div class="footer four">
-            <ul>
-              <li><a href="#">Lets chat!</a></li>
-              <li><a href="#">headphone.app</a></li>
-              <li>
-                <img src="images/Social.png" alt="logo of social media" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </footer>
+    <script>
+      function burgerMenu() {
+          let burger=document.getElementById("nav-bar");
+          if(burger.className === "list") {
+              burger.className += " responsive";
+          }
+          else{
+              burger.className = "list";
+          }
+      }
+    </script>
   </body>
 </html>
