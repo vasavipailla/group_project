@@ -1,0 +1,27 @@
+nav {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width:100%;
+    max-width: 200px;
+    height: 83px;
+    border-radius:50px;
+
+}
+
+.list {
+    display: flex;
+}
+
+li {
+  margin: 30px; 
+  font-family:Poppins;
+}
+
+a:hover{
+    color:black;
+    font-size:130%;
+}
