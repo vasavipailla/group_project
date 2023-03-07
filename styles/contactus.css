@@ -1,42 +1,41 @@
 body{
-    background-color: rgb(252, 249, 249);
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     background-color: #d3a6c2;
-}
-.logo {
     width: 100%;
+}
+
+
+.logo {
+    width:100%;
     max-width: 200px;
     height: 83px;
-    border-radius: 50px;
-  }
-  
-  nav {
+    border-radius:50px;
+}
+
+nav {
     margin: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  
-  .list {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    justify-content: space-between;
+}
+
+
+
+.list {
     display: flex;
-  }
-  
-  li {
-    margin: 30px;
-    font-family: Poppins;
-  }
-  
-  a:hover {
-    color: coral;
-  }
-  
-  .main {
+    list-style-type: none;
+}
+
+li {
+  margin: 30px; 
+  font-family:Poppins;
+}
+
+a:hover{
+    color:black;
+    font-size:130%;
+}
+
+
+.main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -128,6 +127,7 @@ button{
 
 button:hover{
     background-color:rgb(94, 83, 83);
+    transition: all 0.8s ease-in-out;
     
 }
 .title{
@@ -206,7 +206,7 @@ button:hover{
     width: 50%;
     
 }
-.container3{
+.containerthree{
     width: 50%;
     margin: 50px auto;
     text-align: center;
@@ -311,6 +311,56 @@ footer {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+footer{
+    border-radius: 10px;
+    width:100%;
+    background-color:#d7afc8;
+    height:100%; 
+    min-height:180px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+     margin:40px; 
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.logo1 {
+    max-width: 120px;
+    border-radius: 45px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:30px;
+    
+}
+
+.text {
+    font-family:Lobster;
+    font-size:20px;
+
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
 
 
 
