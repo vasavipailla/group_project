@@ -96,9 +96,17 @@ footer {
       justify-content: space-around;
 }
 
+a {
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 a:hover {
   color: black;
-  font-size: 130%;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .logo1 {
@@ -159,9 +167,15 @@ li {
   font-family: Poppins;
 }
 
+.navItem {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .navItem:hover {
   color: black;
-  font-size: 130%;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .list a {
