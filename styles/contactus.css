@@ -1,6 +1,8 @@
 body{
     background-color: #d3a6c2;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -322,7 +324,7 @@ footer{
 .container2 {
     display: flex;
     justify-content: space-between;
-     margin:40px; 
+    
 }
 
 .container3 {
