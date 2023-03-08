@@ -58,45 +58,4 @@
     border-radius:40px;
  }
 
- @media screen and (max-width:1400px) {
-    .heading {
-        font-size: 40px;
-    }
-    .main-text{
-        font-size: 20px;
-    }
-    
-}
-
-@media screen and (max-width:768px) {
-    .heading {
-        font-size:35px;
-    }
-    .main-text {
-        font-size: 17px;
-    }
-     
-} 
-
-@media screen and (max-width:500px) {
-    .heading {
-        font-size:30px;
-    }
-    .main-text {
-        font-size: 10px;
-        line-height: 18px;
-    }
-    
-}
-
-@media screen and (max-width:750px){
-   .main{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    } 
-}
-
-
-
-
+ 
