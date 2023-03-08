@@ -1,0 +1,38 @@
+nav {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width:100%;
+    max-width: 200px;
+    height: 83px;
+    border-radius:50px;
+
+}
+
+li {
+  margin: 30px; 
+  font-family:Poppins;
+}
+
+.navItem:hover{
+    color:black;
+    font-size:130%;
+}
+
+.list a{
+    display:block;
+    float:left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.list .icon {
+    display: none;
+}
+
